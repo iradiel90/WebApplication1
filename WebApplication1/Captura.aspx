@@ -9,14 +9,16 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-    
-        <asp:Label ID="Label1" runat="server" Font-Size="Large" Text="Hipotesis"></asp:Label>
-    
-    </div>
         <p>
+            <asp:Label ID="Label1" runat="server" Text="Hipotesis: "></asp:Label>
             <asp:Button ID="Button1" runat="server" Text="Añadir hipotesis" />
         </p>
+        <asp:Label ID="Label2" runat="server" Text="Expertos: "></asp:Label>
+        <asp:Button ID="Button2" runat="server" Text="Añadir expertos" />
+        <br />
+        <br />
+        <asp:Label ID="Label3" runat="server" Text="Probabilidades Simples: "></asp:Label>
+        <asp:Button ID="Button3" runat="server" Text="Añadir Probabilidades" />
     </form>
 </body>
 </html>

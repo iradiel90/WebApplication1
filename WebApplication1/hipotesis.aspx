@@ -17,8 +17,10 @@
         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
     
     </div>
-        <p>
+        <p style="margin-left: 40px">
         <asp:Button ID="Button1" runat="server" Text="Añadir" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button2" runat="server" Text="Guardar" />
         </p>
     </form>
 </body>

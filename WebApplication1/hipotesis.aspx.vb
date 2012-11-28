@@ -2,13 +2,12 @@
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        Dim tam As Integer
-        tam = UBound(variables.Hipotesis, 2)
+        Dim tam As Integer = UBound(variables.Hipotesis, 2)
+        Me.DataBind()
         For i = 1 To tam Step 1
             Response.Write(variables.Hipotesis(1, i))
             Response.Write(variables.Hipotesis(2, i))
         Next
-
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
