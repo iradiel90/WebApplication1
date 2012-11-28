@@ -1,5 +1,5 @@
 ﻿Public Class variables
 
-    Public Shared hipotesis(1, 2) As String
+    Public Shared Hipotesis(2, 0) As String
 
 End Class
