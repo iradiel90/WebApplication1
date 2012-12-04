@@ -19,6 +19,10 @@
         <br />
         <asp:Label ID="Label3" runat="server" Text="Probabilidades Simples: "></asp:Label>
         <asp:Button ID="Button3" runat="server" Text="Añadir Probabilidades" />
+        <br />
+        <br />
+        <asp:Label ID="Label4" runat="server" Text="Probabilidades condicionadas:"></asp:Label>
+        <asp:Button ID="Button4" runat="server" Text="Añadir Probabilidades" />
     </form>
 </body>
 </html>
