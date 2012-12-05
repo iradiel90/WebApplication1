@@ -17,6 +17,8 @@
     </div>
         <p style="margin-left: 40px">
             <asp:Button ID="Button1" runat="server" Text="Añadir" />
+        &nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button2" runat="server" Text="Atrás" />
         </p>
     </form>
 </body>

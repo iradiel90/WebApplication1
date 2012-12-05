@@ -20,4 +20,8 @@
     Protected Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         Response.Redirect("ProbCond.aspx")
     End Sub
+
+    Protected Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Response.Redirect("ProbCondSin.aspx")
+    End Sub
 End Class

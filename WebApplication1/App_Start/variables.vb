@@ -4,6 +4,6 @@
     Public Shared Expertos(0) As String
     Public Shared ProbSimp(0, 0) As Double
     Public Shared ProbCond(0, 0) As Double
-
+    Public Shared ProbCondSin(0, 0) As Double
 
 End Class

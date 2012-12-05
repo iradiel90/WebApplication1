@@ -225,6 +225,7 @@
     <Content Include="Images\orderedList9.png" />
     <Content Include="packages.config" />
     <Content Include="ProbCond.aspx" />
+    <Content Include="ProbCondSin.aspx" />
     <Content Include="ProbSimp.aspx" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
@@ -361,6 +362,13 @@
     </Compile>
     <Compile Include="ProbCond.aspx.vb">
       <DependentUpon>ProbCond.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ProbCondSin.aspx.designer.vb">
+      <DependentUpon>ProbCondSin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProbCondSin.aspx.vb">
+      <DependentUpon>ProbCondSin.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="ProbSimp.aspx.designer.vb">

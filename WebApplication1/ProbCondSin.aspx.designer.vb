@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class ProbCond
+Partial Public Class ProbCondSin
 
     '''<summary>
     '''Control form1.
