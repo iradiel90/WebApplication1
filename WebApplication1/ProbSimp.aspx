@@ -11,12 +11,12 @@
     <form id="form1" runat="server">
     <div>
     
-        <asp:Panel ID="Panel1" runat="server">
-        </asp:Panel>
+        <asp:GridView ID="GridView1" runat="server">
+        </asp:GridView>
     
     </div>
         <p style="margin-left: 40px">
-            <asp:Button ID="Button1" runat="server" Text="Añadir" />
+            <asp:Button ID="Button1" runat="server" Text="Guardar" />
         &nbsp;&nbsp;&nbsp;
             <asp:Button ID="Button2" runat="server" Text="Atrás" />
         </p>
