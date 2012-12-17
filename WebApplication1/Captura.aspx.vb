@@ -24,4 +24,13 @@
     Protected Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         Response.Redirect("ProbCondSin.aspx")
     End Sub
+
+    Protected Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        Dim servicio As New WebService1
+        Dim matriz = servicio.MuestraHipos(variables.Hipotesis)
+        For i = 0 To UBound(matriz, 2)
+            Response.Write(matriz(1, i) & " - ")
+            Response.Write(matriz(2, i) & "<BR>")
+        Next
+    End Sub
 End Class

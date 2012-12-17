@@ -111,4 +111,13 @@ Partial Public Class Datos
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Button5 As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Control Button6.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Button6 As Global.System.Web.UI.WebControls.Button
 End Class

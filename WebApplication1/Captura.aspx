@@ -32,6 +32,10 @@
         <asp:Label ID="Label5" runat="server" Text="Probabilidades condicionadas sin ocurrencia:"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Button ID="Button5" runat="server" Text="Añadir Probabilidades" />
+        <br />
+        <br />
+&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button6" runat="server" Text="Hello" />
     </form>
 </body>
 </html>
