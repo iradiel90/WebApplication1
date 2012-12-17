@@ -1,0 +1,12 @@
+<Datos>
+  <Hipotesis>
+    <Hipo>Exito de ventas</Hipo>
+    <Abr>Exito</Abr>
+    <Hipo>promedio de ventas</Hipo>
+    <Abr>promedio</Abr>
+  </Hipotesis>
+  <Expertos />
+  <ProbSimp />
+  <ProbCond />
+  <ProbCondSin />
+</Datos>

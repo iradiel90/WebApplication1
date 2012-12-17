@@ -1,6 +1,7 @@
 ﻿Imports System.Web.Services
 Imports System.Web.Services.Protocols
 Imports System.ComponentModel
+Imports System.Xml
 
 ' Para permitir que se llame a este servicio web desde un script, usando ASP.NET AJAX, quite la marca de comentario de la línea siguiente.
 <System.Web.Script.Services.ScriptService()> _
@@ -16,8 +17,10 @@ Public Class WebService1
     End Function
 
     <WebMethod()>
-    Public Function MuestraHipos(ByVal hipos)
-        Return hipos
+    Public Function matriz(ByVal documento As XmlDocument)
+        Dim lista As XmlNodeList
+        lista = documento.SelectNodes("/Datos/Hipotesis/Hipo")
+        Return lista
     End Function
 
 End Class
