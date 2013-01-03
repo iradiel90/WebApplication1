@@ -87,9 +87,8 @@ Public Class Datos
         Next
         variables.Doc.Save(System.AppDomain.CurrentDomain.BaseDirectory & "Datos.xml")
         Dim servicio As New WebService1
-        Dim lista As XmlNodeList = servicio.matriz(variables.Doc)
-        For i = 0 To lista.Count - 1 Step 1
-            Response.Write(lista(i).ChildNodes.Item(0).InnerText)
-        Next
+        Dim var As String = servicio.matriz(variables.Doc)
+        Response.Write(var)
+        Response.Write(variables.ProbSimp(1, 2))
     End Sub
 End Class

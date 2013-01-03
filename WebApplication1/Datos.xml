@@ -5,8 +5,26 @@
     <Hipo>promedio de ventas</Hipo>
     <Abr>promedio</Abr>
   </Hipotesis>
-  <Expertos />
-  <ProbSimp />
-  <ProbCond />
-  <ProbCondSin />
+  <Expertos>
+    <Expert>Experto A</Expert>
+    <Expert>Experto B</Expert>
+  </Expertos>
+  <ProbSimp>
+    <Simp>0,8</Simp>
+    <Simp>0,5</Simp>
+    <Simp>0,2</Simp>
+    <Simp>0,1</Simp>
+  </ProbSimp>
+  <ProbCond>
+    <Cond>0,8</Cond>
+    <Cond>0,4</Cond>
+    <Cond>0,1</Cond>
+    <Cond>0,2</Cond>
+  </ProbCond>
+  <ProbCondSin>
+    <CondSin>0</CondSin>
+    <CondSin>0,4</CondSin>
+    <CondSin>0,1</CondSin>
+    <CondSin>0</CondSin>
+  </ProbCondSin>
 </Datos>
